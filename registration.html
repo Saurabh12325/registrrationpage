@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="page1">
+   <div class="nav">
+    <nav class="navbar">
+        <div></div><input type="search" style="width: 30%;">
+        <button style="background-color: rgb(246, 246, 246); margin-right: 90px;">Search</button>
+        <a href="registration.html">Home</a>
+        <a href="landingpage1.html">Carousel</a>
+        <a href="#">Review Section</a>
+    </nav>
+    </div>
+    <div class="container">
+        <div class="container-box">
+            <h1>Registration Form</h1>
+            <form onsubmit=" return data()" action="landingpage1.html">
+            <div class="inputfield">
+                <label for="Username">Username</label>
+                <input type="text" id="Username" placeholder=" Your full name" name="user">
+             
+            </div>
+            <div class="inputfield">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" placeholder=" Enter Your Email" name="email">
+            </div>
+            <div class="inputfield">
+                <label  for="date">Date of birth</label>
+                <input type="date" name="dob" id="date">
+            </div>
+            <div class="inputfield">
+                <label for="Mobile">Phone Number</label>
+                <input type="text" id="Mobile" placeholder= " Your mobile number" name="mobile">
+            </div>
+            <div class="inputfield">
+                <label for="Password">Password</label>
+                <input type="password" id="Password" placeholder="password">
+               
+            </div>
+            <div class="inputfield">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword"  placeholder=" Confirm Password">
+            </div>
+            <input type="submit" id="submit" value="submit">
+           
+        </form>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
